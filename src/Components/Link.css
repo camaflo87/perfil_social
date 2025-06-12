@@ -1,0 +1,13 @@
+.link {
+  width: 100%;
+  padding: 1rem;
+  background-color: #4d4d4c;
+  border-radius: 1rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.link:hover {
+  background-color: #b2f202;
+  color: #000000;
+}

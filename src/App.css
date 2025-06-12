@@ -1,0 +1,25 @@
+.main {
+  background-color: #212121;
+  margin-top: 7rem;
+  border-radius: 1rem;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navegacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo_red {
+  display: block;
+  border-radius: 20%;
+}
+
+.logo_borrar {
+  display: none;
+}

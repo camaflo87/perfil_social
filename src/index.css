@@ -1,0 +1,39 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: "MiFuentePersonalizada"; /* Dale un nombre a tu fuente */
+  src: url("/public/fonts/static/Inter-Regular.ttf") format("wght");
+  font-weight: normal; /* Define el peso de esta versión de la fuente */
+  font-style: normal;
+}
+
+body {
+  background-color: #171717;
+  font-family: "MiFuentePersonalizada", monospace;
+  font-weight: bold; /* Define el peso de la versión negrita de la fuente */
+  font-style: normal;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 1rem;
+}
